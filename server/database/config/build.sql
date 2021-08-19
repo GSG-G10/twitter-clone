@@ -22,7 +22,7 @@ CREATE TABLE posts (
 
 
 CREATE TABLE user_follow(
-    follow_id INTEGER NOT NULL,
+    follower_id INTEGER NOT NULL,
     following_id INTEGER NOT NULL
 );
 
@@ -43,7 +43,7 @@ INSERT INTO user_follow (follower_id, following_id) VALUES
 
 
 Insert Into posts (user_id, text_content) VALUES
-(2,'هذا العالم عجيب إلى أبعد حد #بقلمي'),
-(1, 'ثمة مساحة بين الحافز والرد، في تلك المساحة تكمن قوتنا في اختيار ردنا، وفي ردنا يكمن نمونا وحريتنا')
-(3, 'البدر هذه الليلة يشبهني')
+(2,'هذا العالم عجيب إلى أبعد حدي'),
+(1, 'ثمة مساحة بين الحافز والرد، في تلك المساحة تكمن قوتنا في اختيار ردنا، وفي ردنا يكمن نمونا وحريتنا'),
+(3, 'البدر هذه الليلة يشبهني');
 COMMIT;

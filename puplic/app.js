@@ -1,30 +1,5 @@
-<div  class='post'>
-<div class="user-avatar">
-  <img src="images/user1.jpg" />
-</div>
-
-<div  class="post-content">
-  <div class="post-user-info">
-    <h4>Amr Monzir </h4>
-    <span>@AmrMonzir . 10m</span>
-  </div>
-  <p class="post-text">
-    Flutter web is stable... Oh boy oh boy
-  </p>
-  <div class="post-img">
-    <a href="images/post-img-1.jpg" target="_blank"> <img src="images/post-img-1.jpg" /></a>  
-  </div>
-  <div class="post-icons">
-    <i  class="far fa-comment comment"></i>
-    <i  class="fas fa-retweet retweet"></i>
-    <i class="far fa-heart like" ></i>
-    <i class="fas fa-external-link-alt link"></i>
-  </div>
-</div>
-</div>
 
 const post = document.querySelector('.post')
-
 const createCard = (array) => {
     removeChild(post)
     array.forEach(element => {
